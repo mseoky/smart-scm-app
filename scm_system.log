@@ -1,0 +1,14 @@
+[2025-12-23 11:24:50] [INFO] === 애플리케이션 시작 ===
+[2025-12-23 11:24:50] [INFO] DB 접속 성공: jdbc:postgresql://localhost:5432/scmdb
+[2025-12-23 11:24:50] [INFO] 데이터베이스 연결 성공
+[2025-12-23 11:24:57] [INFO] === 애플리케이션 종료 ===
+[2025-12-23 11:30:12] [INFO] === 애플리케이션 시작 ===
+[2025-12-23 11:30:13] [INFO] DB 접속 성공: jdbc:postgresql://localhost:5432/scmdb
+[2025-12-23 11:30:13] [INFO] 데이터베이스 연결 성공
+[2025-12-23 11:32:25] [INFO] 발주 트랜잭션 시도 1
+[2025-12-23 11:32:25] [INFO] 발주 트랜잭션 커밋 완료 (PO_ID: 7)
+[2025-12-23 11:32:52] [INFO] 발주 트랜잭션 시도 1
+[2025-12-23 11:32:52] [ERROR] 트랜잭션 롤백: ERROR: insert or update on table "po_line" violates foreign key constraint "po_line_part_id_fkey"
+  Detail: Key (part_id)=(9999) is not present in table "part".
+[2025-12-23 11:36:05] [ERROR] 실행 중 예외: No line found
+[2025-12-23 11:36:05] [ERROR] 실행 중 예외: No line found
